@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>medidas em html5</title>
+</head>
+<body>
+    <h1>imagens dinamicas</h1>
+    <p>tente abrir esse site em varios dispositivos diferentes ou simplesmente aumente e diminua o tamanho do navegador</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-b.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-f.png" type="image/png">
+      <img src="imagens/foto-o.png" alt="imagens grande">
+    </picture>
+    <h1>reproduzindo audio</h1>
+    <p>vamos aprender a reproduzir audio em html5 </p><br>
+    <audio preload="auto" autoplay controls>
+        <source src="midea/god of ware.mp3" type="audio/mpeg">
+        <source src="midea/god of ware.ogg" type="audio/ogg">
+        <source src="midea/god of ware.wav" type="audio/wav">
+    </audio> 
+    <h1>videos</h1>
+    <video width="600" poster="imagens/78_BadBatch_LA_v3.0_v3_Lg.0.jpg" controls autoplay loop>
+      <source src="Nova pasta/god of ware.mp4" type="video/webm">
+      <source src="Nova pasta/god of ware.mp4" type="video/mp4">
+      <source src="Nova pasta/god of ware.mp4" type="video/ogg">
+
+    </video> <br>
+    <h1>colocando videos do youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/x6oF3Jxu7X0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+    
+</body>
+</html>
