@@ -40,7 +40,7 @@
  
 
   header > h1{
-    font-family: var(--fonte2);
+    font-family:Arial, Helvetica, sans-serif;
     padding-top: 40px;
     font-variant: small-caps;
     font-size: 10vw;
@@ -107,6 +107,11 @@
     background-image: url('imagens de conteudo/background002.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+   }
+
+   main{
+    text-align: center;
+
    }
 
   footer{
